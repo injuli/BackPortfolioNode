@@ -1,0 +1,30 @@
+{
+    "name": "nodeMensajeria",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "heroku-postbuild": "ng build --prod"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "nodemailer": "^6.9.5",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "@angular/cli": "^16.2.2",
+        "@angular/compiler-cli": "^16.2.5",
+        "nodemon": "^3.0.1"
+    },
+    "engine": {
+        "node": "14.13.0",
+        "npm": "6.14.8"
+    }
+}
